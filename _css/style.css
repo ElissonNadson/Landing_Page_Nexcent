@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+/*  Iniciando o Header */
+
+
+ /*fonte inter para todo a pagina*/
+*{
+    font-family: "Inter", sans-serif;
+  }
+
+/* Estilizando o elemento <header> */
+header {
+    padding: 0px 20px;
+    background-color: #F5F7FA;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Estilizando os itens de lista dentro do cabeçalho */
+header ul li {
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 24px; 
+    display: inline-block;
+    color: #18191F; 
+    font-weight: bold;
+}
+
+/* Estilizando elementos com a classe .custom-background dentro do cabeçalho */
+header .custom-background {
+    background-color: #F5F7FA;
+}
+
+/* Estilizando botões personalizados dentro do cabeçalho */
+header .custom-button {
+    width: 91px;
+    height: 40px;
+    padding: 10px, 20px, 10px, 20px; /* Verifique se as vírgulas estão corretamente separadas. */
+    font-weight: lighter;
+    background-color: #4CAF4F;
+    font-size: 15px;
+}
+
+/* itens do botão #navBtn2 */
+#navBtn1 {
+    background-color: #F5F7FA;
+    color: #4CAF4F;
+}
+
+/* itens do botão #navBtn2 */
+#navBtn2 {
+    background-color: #4CAF4F;
+    color: #fff;
+}
+
+/* Fim do header */
+/* ************************************************************************************* */
+
+
+
+
+.alignCarrousel{
+  padding: 100px;
+}
+.main{
+  background: rgb(248, 246, 246);
+}
+.text h1{
+  margin-left: 0px;
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  width: 800px;
+}
+.text p{
+  margin-left: 0px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}
+.logo{
+  width: 110px;
+  margin-left: 100px;
+  
+}
+.ilustration-align{
+  margin-left: 150px;
+  width: 150px;
+}
+.botoes-login{
+  margin-right: 100px;
+}
+.navbar{
+  margin-top: 0px;
+  background: rgb(248, 246, 246);
+}
+.nav-link{
+  margin: 5px;
+  font-weight: bold;
+}
+
+.carousel-indicators li {
+  list-style-type: none;
+  list-style-type: disc;
+  width: 20px; /* Tamanho desejado */
+  height: 20px; /* Tamanho desejado */
+  color: #00e608;
+
+
+}
+/* Espaçamento entre as bolinhas */
+.carousel-indicators {
+    margin-bottom: 20px; /* Ajuste o valor conforme necessário */
+  }
+.retangle{
+  margin-left: 5px
+}
+.container{
+  margin-top: 100px
+}
+.container .row .img{
+  margin-bottom: 100px;
+}
+
+
+.image-container {
+  height: 100%;
+}
+
+.carousel-item img{
+  margin-left: 200px;
+  width: auto;
+}
+
+/* Aumentar o tamanho do botão de registro */
+.btn {
+    padding: 15px 30px; /* Ajuste o padding conforme necessário para aumentar o tamanho */
+    font-size: 25px; /* Ajuste o tamanho da fonte conforme desejado */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Setup */
+body {
+    margin: 0px auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F7FA;
+    font-family: 'Inter', 'Helvetica Neue',;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Main */
+
+#heroSection {
+    height: 599px;
+    gap: 104px;
+    padding: 96px 144px 96px 144px;
+    opacity: 0px;
+    background-color: #F5F7FA;
+}
+
+main section .custom-div {
+    max-height: 276px;
+    max-width: 657px;
+}
+
+#_8yDiv {
+    white-space: nowrap;
+}
+
+#_8yDiv .custom-button {
+    background-color: #4CAF4F;
+    font-size: 16px;
+    color: #fff;
+    width: 128px;
+    height: 52px;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 6px;
+    opacity: 0px;
+
+}
+
+/* Text format Hero */
+#_8ySpan {
+    color: #4CAF4F    ;
+}
+
+#_8yDiv h1 {
+    font-size: 64px;
+    
+}
+
+#_8yDiv p {
+    font-size: 16px ;
+}
+
+/* Img */
+
+#illustration {
+    width: 391px;
+    height: 407px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#dot {
+    width: 46px;
+    height: 10px;
+}
+
+/* Clients Section */
+#clientsSection {
+    opacity: 0px;
+    background-color: #fff;
+}
+
+.custom-info {
+    width: 299px;
+}
+
+#clientTextDiv {
+    width: 100%;
+}
+
+.custom-img {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+}
+
+#imgDiv {
+    width: 1152px;
+    height: 96px; 
+}
+
+#organisations {
+    width: 65px;
+    height: 56px;
+} 
+
+#clientsSection .custom-button{
+    width: 151px;
+    height: 52px;
+    background-color: #4CAF4F;
+    color: #fff;
+}
+
+
+/* Text format client */
+
+#clientsSection h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#organisations {
+    max-width: 251px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#_601w {
+    width: 601px;
+    font-size: 14px;
+}
+
+#_14p {
+    font-size: 14px;
+}
+
+._14p {
+    font-size: 14px;
+}
+
+._36p {
+    font-size: 36px;
+    width: 600px;
+}
+
+/* Ach */
+
+.custom-height {
+    height: 288px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#businessSpan {
+    color: #4CAF4F    ;
+}
+
+.modelImg {
+    width: 48px;
+    height: 48px;
+}
+
+#calenderSection {
+    background-color: #fff;
+}
+
+#calenderSection .custom-button{
+    align-items: end;
+    width: 151px;
+    height: 52px;
+    background-color: #4CAF4F;
+    color: #fff;
+}
+
+#customerSection {
+    padding: 30px;
+}
+#arrow {
+    width: 14.59px;
+    height: 8px;
+}
+
+#img9 {
+    width: 326px;
+    height: 326px;
+    border-radius: 8px;
+}
+
+
+.textimageDiv {
+    margin-top: 150px;
+    width: 317px;
+    height: 176px;
+    background-color: #F5F7FA;
+    border-radius: 8px;
+    padding: 16px;
+    position: absolute;
+    z-index: 3;
+    box-shadow: -4px 16px 30px 8px rgba(171,190,209,0.39);
+    -webkit-box-shadow: -4px 16px 30px 8px rgba(171,190,209,0.39);
+    -moz-box-shadow: -4px 16px 30px 8px rgba(171,190,209,0.39);
+}
+
+.imgforText {
+    width: 368px;
+    height: 286px;
+    border: 8px;
+}
+
+#divFooter {
+    height: 300px;
+    padding: 32px, 0px, 32px, 0px;
+    gap: 32px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer .custom-button{
+    align-items: end;
+    width: 151px;
+    height: 52px;
+    background-color: #4CAF4F;
+    color: #fff;
+}
+
+footer h2 {
+    font-size: 64px;
+}
+
+footer #arrow {
+    color: #fff;
+}
+
+#footer{
+    width: 100%;
+    padding-bottom: 5%;
+    background-color: #263238;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    font-size: 10   px;
+    font-weight: semi-bold;
+}
+.footer_icons{
+    margin-left:30%;
+    padding:0;
+    list-style-type:none;
+}
+.footer_icons li{
+    float: left;
+    padding-right: 2%;
+    text-align:center;
+}
+/* End Main */
+
+
